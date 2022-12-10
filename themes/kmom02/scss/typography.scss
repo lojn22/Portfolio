@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Vollkorn&display=swap');
+
+html {
+    font-size: 100%;
+}
+
+body {
+    line-height: $base-line-height;
+    
+
+}
+
+a {
+    text-decoration: none;
+    color: #080808;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: $magic-number * 2;
+    font-family: 'Comforter Brush', cursive;
+    padding-left: 5%;
+
+}
+
+p {
+    font-size: $base-font-size;
+    margin-bottom: $magic-number;
+    font-family: 'Vollkorn', serif;
+}
+
+.main {
+    max-width: 67rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    margin: 0 auto;
+    margin-bottom: 19rem;
+
+    img {
+        width: 70%;
+    }
+}
+
+@media (min-width:64em) {
+    html {
+        font-size: 112.5%;
+    }
+}
+
+img {
+    width: 5%;
+    height: auto;
+    padding: 1em;
+}
+
+// .title {
+//     h1 {
+//         margin-bottom: 0.5%;
+//     }
+//     p {
+//         padding-left: 6em;
+//     }
+// }
+
+.footer {
+    p {
+        padding-left: 2%;
+    }
+
+    .social {
+        padding-left: 2%;
+    }
+}

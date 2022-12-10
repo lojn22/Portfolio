@@ -83,11 +83,12 @@ body {
 
 .footer a {
     color: #222;
+    text-decoration: none;
 }
 
 .footer .social {
     font-size: 2rem;
-    color:#f5f5f5;
+    color:#444;
 }
 
 /* Typografy */
@@ -110,7 +111,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 img {
-    max-width: 100%;
+    max-width: 10%;
 }
 
 /* BELOW ARE PREPARED STYLES FOR CODE/PRE/BLOCKQUOTE, FEEL FREE TO REMOVE IT  */
@@ -153,3 +154,5 @@ blockquote {
     padding-left: 1em;
     border-left: 0.5em solid #f5f5f5;
 }
+
+
