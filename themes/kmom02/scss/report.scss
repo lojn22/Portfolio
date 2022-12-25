@@ -12,3 +12,24 @@
 .kmom-box.project {
     grid-column: span 3;
 }
+
+/* kmom articles */
+
+article.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sidebar {
+    width: 20%;
+}
+
+.article-content {
+    width: 70%;
+}
+
+.sidebar-menu {
+    list-style-type: none;
+    padding-left: 0;
+}
