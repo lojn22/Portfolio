@@ -1,9 +1,12 @@
-$font-color: #000;
-$font-alternative-color: #fff;
-$accent-color: #ee6c4d;
-$background-color: #f8ea8d61;
-$background-alternative-color: #f8db69;
+$font-color: rgb(0, 0, 0);
+$font-alternative-color: rgb(255, 255, 255);
+$accent-color: rgb(238, 108, 77);
+$background-color: rgb(253, 252, 251);
+$background-alternative-color: rgb(246, 241, 235);
+
 
 $base-line-height: 1.4;
 $base-font-size: 1.1rem;
 $magic-number: $base-line-height * $base-font-size;
+
+// background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d13c 100%);

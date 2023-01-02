@@ -1,0 +1,29 @@
+.analys-page {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.analys-box {
+    border: 1px solid #ccc;
+    position: relative;
+    overflow: hidden;
+    height: 12rem;
+
+    img {
+        width: 100%;
+    }
+
+    h2 {
+        position: absolute;
+        padding: 1em 2em;
+        width: 100%;
+        margin: 0;
+        color: rgb(195, 106, 22);
+    
+    }
+}
+
+.analys-box:hover {
+    box-shadow: 10px 10px 5px 0 px rgba(0, 0, 0, 0.2);
+}
