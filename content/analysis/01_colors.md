@@ -109,11 +109,16 @@ För mig känns det som om de lyckas lyfta fram sin tänkta profil med valet av 
 Analys
 -----------------------
 
-Det som de alla tre har gemensamt är att de väljer en ljus bakgrundsfärg och att de har en accentfärg som de skapar en röd tråd med på hemsidan. Färgpaletterna och typsnitten de har valt känns väl genomtänkta och lyfter fram varumärket på det sätt som de tänkt sig. Hermès sida skiljer sig något från de andra två  på så sätt att de har typsnitt serif och att de väljer att helt gå på den ljusa designen även i bilderna och videosen som har en ljus bakgrund och även deras footer likaså. 
+Det som de alla tre har gemensamt är att de väljer en ljus bakgrundsfärg och att de har en accentfärg som de skapar en röd tråd med på hemsidan. Färgpaletterna och typsnitten de har valt känns väl genomtänkta och lyfter fram varumärket på det sätt som de tänkt sig. Hermès sida skiljer sig något från de andra två på så sätt att de har typsnitt serif och att de väljer att helt gå på den ljusa designen även i bilderna och videosen som har en ljus bakgrund och även deras footer likaså. Det jag även la märke till var att både Hermès och Louis Vuitton har valt orange färg på sina påsar och förpackninigar och kankse är orange en färg som kopplas till lyx.
 
 
 Övrigt
 -----------------------
+Länkar:
+https://www.hermes.com/se/en/  
+https://en.louisvuitton.com/eng-nl/homepage  
+https://www.versace.com/eu/en/home/  
+
 Rapport skriven av
 Louise Jönsson
 

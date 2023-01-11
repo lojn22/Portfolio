@@ -6436,6 +6436,11 @@ body {
   background: linear-gradient(217deg, rgba(246, 241, 235, 0.8), rgba(255, 0, 0, 0) 70.71%), linear-gradient(127deg, rgba(250, 245, 225, 0.8), rgba(0, 255, 0, 0) 70.71%), linear-gradient(336deg, rgba(222, 213, 199, 0.8), rgba(0, 0, 255, 0) 70.71%);
 }
 
+.analys {
+  width: 70%;
+  height: 10%;
+}
+
 a {
   text-decoration: none;
   color: rgb(0, 0, 0);
@@ -6519,6 +6524,7 @@ img {
 .header h1 {
   font-size: 250%;
   padding-left: 1%;
+  padding-top: 3%;
 }
 .header p {
   position: relative;
@@ -6682,8 +6688,8 @@ pre code {
 .technology-page {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(5, 1fr);
-  gap: 2em 2em;
+  grid-template-rows: repeat(5, 0.5fr);
+  gap: 0.4em 0.4em;
 }
 
 .technology-page h1 {
@@ -6696,6 +6702,9 @@ pre code {
   position: relative;
   overflow: hidden;
   height: 18rem;
+}
+.technology-box img {
+  width: 100%;
 }
 .technology-box h2 {
   position: absolute;
@@ -6712,39 +6721,24 @@ pre code {
   grid-column: 1/3;
   grid-row: 2/3;
 }
-.css img {
-  width: 100%;
-}
 .css h2 {
-  background-color: rgba(125, 109, 74, 0.7019607843);
-  top: 0;
-  left: 0;
+  background-color: rgba(201, 175, 119, 0.702);
 }
 
 .git {
   grid-column: 3/4;
   grid-row: 4/5;
 }
-.git img {
-  width: 100%;
-}
 .git h2 {
   background-color: rgba(74, 64, 44, 0.702);
-  top: 0;
-  left: 0;
 }
 
 .html {
   grid-column: 3/4;
   grid-row: 2/3;
 }
-.html img {
-  width: 100%;
-}
 .html h2 {
-  background-color: rgba(201, 175, 119, 0.702);
-  top: 0;
-  left: 0;
+  background-color: rgba(125, 109, 74, 0.702);
 }
 
 .javascript {
@@ -6752,13 +6746,10 @@ pre code {
   grid-row: 3/4;
 }
 .javascript img {
-  width: 100%;
   height: 100%;
 }
 .javascript h2 {
   background-color: rgba(147, 142, 130, 0.702);
-  top: 0;
-  left: 0;
 }
 
 .php {
@@ -6766,13 +6757,8 @@ pre code {
   grid-row: 4/5;
   overflow: hidden;
 }
-.php img {
-  width: 100%;
-}
 .php h2 {
   background-color: rgba(74, 64, 44, 0.702);
-  top: 0;
-  left: 0;
 }
 
 .python {
@@ -6785,8 +6771,6 @@ pre code {
 }
 .python h2 {
   background-color: rgba(201, 194, 179, 0.702);
-  top: 0;
-  left: 0;
 }
 
 .sqlite {
@@ -6794,15 +6778,12 @@ pre code {
   grid-row: 5/6;
 }
 .sqlite img {
-  width: 100%;
   height: 100%;
   object-fit: cover;
   object-position: 100%;
 }
 .sqlite h2 {
   background-color: rgba(99, 96, 89, 0.702);
-  top: 0;
-  left: 0;
 }
 
 .sidebar {
@@ -6854,4 +6835,118 @@ pre code {
 
 .analys-box:hover {
   box-shadow: 10px 10px 5px 0 px rgba(0, 0, 0, 0.2);
+}
+
+.gallery-page {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 0.5fr);
+  gap: 0.2em 0.2em;
+}
+
+.gallery-page h1 {
+  grid-column: span 3;
+  justify-self: center;
+}
+
+.gallery-box {
+  border: 1px solid #ccc;
+  position: relative;
+  overflow: hidden;
+  height: 18rem;
+}
+.gallery-box img {
+  width: 126%;
+}
+
+.gallery-box:hover {
+  box-shadow: 10px 10px 5px 0 px rgba(0, 0, 0, 0.2);
+}
+
+.one {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+.two {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+.thre {
+  grid-column: 3/4;
+  grid-row: 2/3;
+}
+.thre img {
+  width: 127%;
+}
+
+.four {
+  grid-column: 1/2;
+  grid-row: 3/4;
+}
+.four img {
+  width: 125%;
+  height: 100%;
+}
+
+.five {
+  grid-column: 2/3;
+  grid-row: 3/4;
+}
+
+.six {
+  grid-column: 3/4;
+  grid-row: 3/4;
+}
+.six img {
+  width: 112%;
+}
+
+.seven {
+  grid-column: 1/2;
+  grid-row: 4/5;
+}
+.seven img {
+  object-fit: cover;
+  object-position: 100%;
+}
+
+.eight {
+  grid-column: 2/3;
+  grid-row: 4/5;
+}
+
+.nine {
+  grid-column: 3/4;
+  grid-row: 4/5;
+}
+.nine img {
+  width: 123%;
+  height: 100%;
+}
+
+.sidebar {
+  width: 20%;
+}
+
+.article-content {
+  width: 70%;
+}
+
+.sidebar-menu {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+@media (max-width: 550px) {
+  .gallery-page {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 550px) and (max-width: 550px) {
+  .main {
+    flex-direction: column;
+  }
 }
