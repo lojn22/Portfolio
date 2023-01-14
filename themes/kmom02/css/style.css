@@ -6477,6 +6477,18 @@ p {
     font-size: 112.5%;
   }
 }
+@media (max-width: 550px) {
+  .header h1 {
+    padding-top: 20%;
+  }
+}
+img,
+embed,
+object,
+video {
+  max-width: 100%;
+}
+
 img {
   width: 5%;
   height: auto;
@@ -6690,6 +6702,8 @@ pre code {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(5, 0.5fr);
   gap: 0.4em 0.4em;
+  width: 50rem;
+  padding-left: 9em;
 }
 
 .technology-page h1 {
@@ -6701,7 +6715,7 @@ pre code {
   border: 1px solid #ccc;
   position: relative;
   overflow: hidden;
-  height: 18rem;
+  height: 15rem;
 }
 .technology-box img {
   width: 100%;
@@ -6803,6 +6817,10 @@ pre code {
   .technology-page {
     display: flex;
     flex-direction: column;
+    padding-left: 1rem;
+  }
+  .technology-box {
+    width: 20rem;
   }
 }
 @media (max-width: 550px) {
@@ -6839,9 +6857,10 @@ pre code {
 
 .gallery-page {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 0.2fr);
   grid-template-rows: repeat(4, 0.5fr);
   gap: 0.2em 0.2em;
+  padding-left: 10em;
 }
 
 .gallery-page h1 {
@@ -6853,7 +6872,8 @@ pre code {
   border: 1px solid #ccc;
   position: relative;
   overflow: hidden;
-  height: 18rem;
+  height: 10rem;
+  width: 15rem;
 }
 .gallery-box img {
   width: 126%;
@@ -6926,6 +6946,25 @@ pre code {
   height: 100%;
 }
 
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  grid-column: span 3;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .sidebar {
   width: 20%;
 }
@@ -6943,6 +6982,7 @@ pre code {
   .gallery-page {
     display: flex;
     flex-direction: column;
+    padding-left: 4.5rem;
   }
 }
 @media (max-width: 550px) and (max-width: 550px) {

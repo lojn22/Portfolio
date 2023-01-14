@@ -12,7 +12,7 @@ Syftet med uppgiften är att mäta tre olika webbsidor hur snabbt de laddas och 
 Urval
 -----------------------
 
-Mina val av webbplatser blev inom resebrachen. Ving, Tui och Apollo. Laddningstid av hemsidor kanske kan påverka användarens val av vilket företag de väljer att boka sina resor med och därför tyckte jag det skunde vara kul och jämföra de tre större namnen i Sverige inom charterresebranchen.
+Mina val av webbplatser blev inom resebrachen. Ving, Tui och Apollo. Laddningstid av hemsidor kanske kan påverka användarens val av vilket företag de väljer att boka sina resor med och därför tyckte jag det kunde vara kul och jämföra de tre större namnen i Sverige inom charterresebranchen.
 
 Metod
 -----------------------

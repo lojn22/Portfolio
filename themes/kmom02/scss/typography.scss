@@ -17,8 +17,8 @@ body {
 }
 
 .analys {
-width: 70%;
-height: 10%;
+    width: 70%;
+    height: 10%;
 }
 
 a {
@@ -58,6 +58,22 @@ p {
     html {
         font-size: 112.5%;
     }
+}
+
+@media (max-width: 550px) {
+    .header h1 {
+        padding-top: 20%; 
+    }
+}
+
+img,
+
+embed,
+
+object,
+
+video {
+    max-width: 100%;
 }
 
 img {

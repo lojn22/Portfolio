@@ -3,6 +3,8 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(5, 0.5fr);
     gap: 0.4em 0.4em;
+    width: 50rem;
+    padding-left: 10em;
 }
 
 .technology-page h1 {
@@ -14,7 +16,7 @@
     border: 1px solid #ccc;
     position: relative;
     overflow: hidden;
-    height: 18rem;
+    height: 15rem;
     
 
     img {
