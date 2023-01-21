@@ -11,7 +11,8 @@ Gallery
     <a href="%base_url%/image/statue1280.jpg" target="_blank">
     <picture>
         <source media="(min-width: 668px)" srcset="%base_url%/image/statue1280.jpg">
-        <img src="%base_url%/image/statue1280.jpg?w=667" alt="Statue">
+        <source media="(min-width: 376px)" srcset="%base_url%/image/statue1280.jpg?w=667">
+        <img src="%base_url%/image/statue1280.jpg?w=375" alt="Statue">
     </picture>
 </a>
 </div>
@@ -20,7 +21,8 @@ Gallery
     <a href="%base_url%/image/books.jpg" target="_blank">
     <picture>
         <source media="(min-width: 668px)" srcset="%base_url%/image/books.jpg">
-        <img src="%base_url%/image/books.jpg&w=667" alt="Books">
+        <source media="(min-width: 376px)" srcset="%base_url%/image/books.jpg?w=667">
+        <img src="%base_url%/image/books.jpg&w=375" alt="Books">
     </picture>
 </a>
 
@@ -30,7 +32,8 @@ Gallery
     <a href="%base_url%/image/pavel.jpg" target="_blank">
     <picture>
         <source media="(min-width: 668px)" srcset="%base_url%/image/pavel.jpg">
-        <img src="%base_url%/image/pavel.jpg&w=667" alt="Pavel">
+        <source media="(min-width: 376px)" srcset="%base_url%/image/pavel.jpg?w=667">
+        <img src="%base_url%/image/pavel.jpg&w=375" alt="Pavel">
     </picture>
 </a>
 </div>
@@ -39,7 +42,8 @@ Gallery
     <a href="%base_url%/image/autumn.jpg" target="_blank">
     <picture>
         <source media="(min-width: 668px)" srcset="%base_url%/image/autumn.jpg">
-        <img src="%base_url%/image/autumn.jpg&w=667" alt="Autumn">
+        <source media="(min-width: 376px)" srcset="%base_url%/image/autumn.jpg?w=667">
+        <img src="%base_url%/image/autumn.jpg&w=375" alt="Autumn">
     </picture>
 </a>
 </div>
@@ -48,7 +52,8 @@ Gallery
     <a href="%base_url%/image/trevi.jpg" target="_blank">
     <picture>
         <source media="(min-width: 668px)" srcset="%base_url%/image/trevi.jpg">
-        <img src="%base_url%/image/trevi.jpg&w=667" alt="Trevi">
+        <source media="(min-width: 376px)" srcset="%base_url%/image/trevi.jpg?w=667">
+        <img src="%base_url%/image/trevi.jpg&w=375" alt="Trevi">
     </picture>
 </a>
 </div>
@@ -57,7 +62,8 @@ Gallery
     <a href="%base_url%/image/vienna.jpg" target="_blank">
     <picture>
         <source media="(min-width: 668px)" srcset="%base_url%/image/vienna.jpg">
-        <img src="%base_url%/image/vienna.jpg&w=667" alt="Vienna">
+        <source media="(min-width: 376px)" srcset="%base_url%/image/vienna.jpg?w=667">
+        <img src="%base_url%/image/vienna.jpg&w=375" alt="Vienna">
     </picture>
 </a>
 </div>
@@ -66,7 +72,8 @@ Gallery
     <a href="%base_url%/image/lion.jpg" target="_blank">
     <picture>
         <source media="(min-width: 668px)" srcset="%base_url%/image/lion.jpg">
-        <img src="%base_url%/image/lion.jpg&w=667" alt="A lion">
+        <source media="(min-width: 376px)" srcset="%base_url%/image/lion.jpg?w=667">
+        <img src="%base_url%/image/lion.jpg&w=375" alt="A lion">
     </picture>
 </a>
 </div>
@@ -75,7 +82,8 @@ Gallery
 <a href="%base_url%/image/cemetery.jpg" target="_blank">
     <picture>
         <source media="(min-width: 668px)" srcset="%base_url%/image/cemetery.jpg">
-        <img src="%base_url%/image/cemetery.jpg&w=667" alt="Cemetery">
+        <source media="(min-width: 376px)" srcset="%base_url%/image/cemetery.jpg?w=667">
+        <img src="%base_url%/image/cemetery.jpg&w=375" alt="Cemetery">
     </picture>
 </a>
 </div>
@@ -84,7 +92,8 @@ Gallery
 <a href="%base_url%/image/gem.jpg" target="_blank">
     <picture>
         <source media="(min-width: 668px)" srcset="%base_url%/image/gem.jpg">
-        <img src="%base_url%/image/gem.jpg&w=667" alt="Gem">
+        <source media="(min-width: 376px)" srcset="%base_url%/image/gem.jpg?w=667">
+        <img src="%base_url%/image/gem.jpg&w=375" alt="Gem">
     </picture>
 </a>
 </div>

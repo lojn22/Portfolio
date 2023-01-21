@@ -113,6 +113,16 @@
     }
 }
 
+article.main {
+    display: grid;
+    grid-template-columns: 20% auto;
+    max-width: 67rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    margin: 0 auto;
+    margin-bottom: 19rem;
+}
+
 .sidebar {
     width: 20%;
 }
@@ -126,7 +136,7 @@
     padding-left: 0;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 767px) {
     .technology-page {
         display: flex;
         flex-direction: column;
@@ -140,8 +150,14 @@
 
 
 
-@media (max-width:550px) {
-    .main {
-        flex-direction: column;
+@media (max-width:767px) {
+    article.main {
+        grid-template-columns: auto;
+        padding-left: 5rem;
+        margin-bottom: 2rem;
+    }
+
+    .sidebar {
+        display: none;
     }
 }

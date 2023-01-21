@@ -6510,9 +6510,11 @@ img {
  * Add background image.
  */
 .header {
+  display: flex;
   background-color: var(--light-color);
   border-bottom: 4px solid var(--dark-color);
   position: relative;
+  margin-bottom: 10%;
   background-image: url("assets/img/butterfly.pgn");
   background-repeat: no-repeat;
   /* background-attachment: fixed; */
@@ -6530,18 +6532,20 @@ img {
   font-size: 90%;
   text-shadow: 2px 2px 2px rgb(159, 159, 159);
   position: relative;
-  top: -90px;
-  left: 200px;
+  top: 2em;
+  left: 25%;
 }
 .header h1 {
   font-size: 250%;
   padding-left: 1%;
   padding-top: 3%;
+  margin-top: 0%;
+  margin-bottom: 1%;
 }
 .header p {
   position: relative;
   margin-top: -3.5%;
-  padding-left: 5.5%;
+  padding-left: 23%;
 }
 .header .logo {
   width: 90%;
@@ -6800,6 +6804,16 @@ pre code {
   background-color: rgba(99, 96, 89, 0.702);
 }
 
+article.main {
+  display: grid;
+  grid-template-columns: 20% auto;
+  max-width: 67rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  margin: 0 auto;
+  margin-bottom: 19rem;
+}
+
 .sidebar {
   width: 20%;
 }
@@ -6813,7 +6827,7 @@ pre code {
   padding-left: 0;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 767px) {
   .technology-page {
     display: flex;
     flex-direction: column;
@@ -6823,9 +6837,14 @@ pre code {
     width: 20rem;
   }
 }
-@media (max-width: 550px) {
-  .main {
-    flex-direction: column;
+@media (max-width: 767px) {
+  article.main {
+    grid-template-columns: auto;
+    padding-left: 5rem;
+    margin-bottom: 2rem;
+  }
+  .sidebar {
+    display: none;
   }
 }
 .analys-page {
