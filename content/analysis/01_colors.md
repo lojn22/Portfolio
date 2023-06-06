@@ -101,7 +101,7 @@ Typsnitt de använder sig av är deras egnaskapta snitt Versace, AktivGrotesk, s
 </tr>
 </table>
 
-Färgschemat är triad med grupperna rosa och röd, vitt och svart vilket  och guld. Rosa är deras accentfärg som geneomsyra hemsidan med hjälp utav deras produkter som är färgsatta i cerise rosa färg. Svart och vit var deras orginela signaturfärg på logan men har även på senare tid porträtterat även i guld[^7].
+Färgschemat är triad med grupperna rosa och röd, vitt och svart och guld. Rosa är deras accentfärg som geneomsyra hemsidan med hjälp utav deras produkter som är färgsatta i cerise rosa färg. Svart och vit var deras orginela signaturfärg på logan men har även på senare tid porträtterat även i guld[^7].
 
 För mig känns det som om de lyckas lyfta fram sin tänkta profil med valet av sans serifa typsnittet och de två starka färgerna röd och rosa som får representerar det spektakulära och färgrika medans det silvriga och guldiga få stå för den extrvagansa lyx som Versace associeras med.
 
@@ -114,7 +114,7 @@ Det som de alla tre har gemensamt är att de väljer en ljus bakgrundsfärg och 
 
 Övrigt
 -----------------------
-Länkar:
+Länkar:  
 https://www.hermes.com/se/en/  
 https://en.louisvuitton.com/eng-nl/homepage  
 https://www.versace.com/eu/en/home/  

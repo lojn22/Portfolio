@@ -6,4 +6,4 @@ Description: Page about my hobby
 Min hobby
 ========================
 
-Text
+![Stad](%base_url%/assets/img/timo.jpg)

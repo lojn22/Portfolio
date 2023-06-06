@@ -11,7 +11,7 @@ Technology
     <a href="technologies/css">
         <h2>css</h2>
     
-        <img src="%base_url%/assets/img/sculptur.jpg">
+        <img src="%base_url%/assets/img/sculptur.jpg" alt="sculptur">
 </a>
 </div>
 
@@ -19,7 +19,7 @@ Technology
     <a href="technologies/git">
     <h2>git</h2>
    
-    <img src="%base_url%/assets/img/cat.jpg">
+    <img src="%base_url%/assets/img/cat.jpg" alt="cat">
 </a>
 </div>
 
@@ -27,7 +27,7 @@ Technology
     <a href="technologies/html">
     <h2>html</h2>
     
-    <img src="%base_url%/assets/img/pillar.jpg">
+    <img src="%base_url%/assets/img/pillar.jpg" alt="pillar">
 </a>
 </div>
 
@@ -35,7 +35,7 @@ Technology
     <a href="technologies/javascript">
     <h2>javascript</h2>
     
-    <img src="%base_url%/assets/img/javascript.jpg">
+    <img src="%base_url%/assets/img/javascript.jpg" alt="sand">
 </a>
 </div>
 
@@ -51,7 +51,7 @@ Technology
     <a href="technologies/python">
     <h2>python</h2>
     
-    <img src="%base_url%/assets/img/python.jpg">
+    <img src="%base_url%/assets/img/python.jpg" alt="python">
 </a>
 </div>
 
@@ -59,6 +59,6 @@ Technology
     <a href="technologies/sqlite">
     <h2>sqlite</h2>
     
-    <img src="%base_url%/assets/img/sql.jpg">
+    <img src="%base_url%/assets/img/sql.jpg" alt="arkiv">
 </a>
 </div>

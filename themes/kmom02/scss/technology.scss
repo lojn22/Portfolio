@@ -1,16 +1,18 @@
 .technology-page {
     display: grid;
+    justify-content: center;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(5, 0.5fr);
     gap: 0.4em 0.4em;
-    width: 50rem;
+    width: 100%;
     padding-left: 9em;
+    padding-right: 9em;
 }
 
-.technology-page h1 {
-    grid-column: span 3;
-    justify-self: center;
-}
+// .technology-page h1 {
+//     grid-column: span 3;
+//     justify-self: center;
+// }
 
 .technology-box {
     border: 1px solid #ccc;
@@ -113,7 +115,7 @@
     }
 }
 
-article.main {
+.article-main {
     display: grid;
     grid-template-columns: 20% auto;
     max-width: 67rem;
@@ -140,18 +142,48 @@ article.main {
     .technology-page {
         display: flex;
         flex-direction: column;
-        padding-left: 1rem;
+        width: 10%;
+        margin-bottom: 1rem;
+    }
+
+    .header {
+        margin-bottom: 1%;
+
+        .title{
+            position: sticky;
+            top: 2em;
+            padding-left: 4%;
+        }
+
+        .logo {
+            width: 400%;
+            position: sticky;
+            top: 1%;
+            padding-left: 70%;
+        }
+    }
+
+    h1 {
+        font-size: 2em;
+        margin-top: 1%;
+        margin-bottom: 3%;
     }
 
     .technology-box {
         width: 20rem;
+    }
+
+    .footer {
+        .social{
+            font-size: 1rem;
+        }
     }
 }
 
 
 
 @media (max-width:767px) {
-    article.main {
+    .article-main {
         grid-template-columns: auto;
         padding-left: 5rem;
         margin-bottom: 2rem;
@@ -159,5 +191,9 @@ article.main {
 
     .sidebar {
         display: none;
+    }
+
+    .nav ul {
+        padding-bottom: 1em;
     }
 }

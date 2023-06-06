@@ -1,15 +1,18 @@
 .gallery-page {
     display: grid;
+    justify-content: center;
     grid-template-columns: repeat(3, 0.2fr);
     grid-template-rows: repeat(4, 0.5fr);
     gap: 0.2em 0.2em;
     padding-left: 10em;
+    width: 100%;
+
 }
 
-.gallery-page h1 {
-    grid-column: span 3;
-    justify-self: center;
-}
+// .gallery-page h1 {
+//     grid-column: span 3;
+//     justify-self: center;
+// }
 
 .gallery-box {
     border: 1px solid #ccc;

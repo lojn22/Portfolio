@@ -17,7 +17,7 @@ Mina val av webbplatser blev inom resebrachen. Ving, Tui och Apollo. Laddningsti
 Metod
 -----------------------
 
-Google Pagespeed för mätning av webbsidorna, delas in i fyra kategorier prestanda, tillgänglighet, bästa metoder ovh SEO. Färger grön orange och röd och en skala 1-100 för att betygsätta mätvärdena. grönt 90-100 är de bästa värdena organge 50-89 medel och rött 0-49 sämre. 
+Google Pagespeed för mätning av webbsidorna, delas in i fyra kategorier prestanda, tillgänglighet, bästa metoder och SEO. För betygsättning av mätvärdena används färgerna grön orange och röd och en skala från 1-100. Grönt 90-100 är de bästa värdena organge 50-89 medel och rött 0-49 sämre. 
 Google kalkylark för samling av datan jag fick fram av mätningen
 Devtools - network för att se laddningstid, antalet resurser som laddas och sidornas totala storlek.
 
@@ -114,6 +114,6 @@ Louise Jönsson
 
 Referenser
 -----------------------
-https://pagespeed.web.dev/report?url=https%3A%2F%2Fwww.ving.se%2F&form_factor=desktop  
-https://pagespeed.web.dev/report?url=https%3A%2F%2Fwww.tui.se%2F&form_factor=desktop  
-https://pagespeed.web.dev/report?url=https%3A%2F%2Fwww.apollo.se%2F&form_factor=desktop
+<sub><sup>https://pagespeed.web.dev/report?url=https%3A%2F%2Fwww.ving.se%2F&form_factor=desktop  </sup></sub>
+<sub><sup>https://pagespeed.web.dev/report?url=https%3A%2F%2Fwww.tui.se%2F&form_factor=desktop  </sup></sub>
+<sub><sup>https://pagespeed.web.dev/report?url=https%3A%2F%2Fwww.apollo.se%2F&form_factor=desktop</sup></sub>

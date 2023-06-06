@@ -6,6 +6,8 @@ Description: About page for Design.
 About
 ==========================
 
+![Berg och sol](%base_url%/assets/img/neom.jpg)
+
 **Kurs:** PA1436 H22  
 Teknisk webbdesign och användbarhet.  
 

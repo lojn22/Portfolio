@@ -4,8 +4,9 @@
 }
 
 .nav ul {
+    /* display: inline-block; */
     display: flex;
-    justify-content: flex-end;
+    width: 100%;
     padding: 1em 0;
     list-style: none;
 }
@@ -28,7 +29,7 @@
     }
 
     .nav ul {
-        flex-direction: column;
+        /* flex-direction: column; */
         padding-bottom: 1em;
     }
 
